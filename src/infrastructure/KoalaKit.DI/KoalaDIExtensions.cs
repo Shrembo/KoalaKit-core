@@ -7,7 +7,7 @@ namespace KoalaKit.DI;
 
 public static class KoalaDIExtensions
 {
-    public static void RegisterAllServices(KoalaContext koala, Assembly assembly)
+    public static void RegisterAllServices(this KoalaContext koala, Assembly assembly)
     {
         RegisterSingletonServices(koala, assembly);
         RegisterScopedServices(koala, assembly);
