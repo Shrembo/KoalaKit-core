@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaKit.DI", "src\infrastr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koalakit.Orchestrations", "src\infrastructure\Koalakit.Orchestrations\Koalakit.Orchestrations.csproj", "{34A0BE9C-549F-4961-A380-B130F2A11C58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaKit.Serializations", "src\infrastructure\KoalaKit.Serializations\KoalaKit.Serializations.csproj", "{AEB74149-003E-4C20-BE76-0F63899107F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaKit.Tokenizations", "src\infrastructure\KoalaKit.Tokenizations\KoalaKit.Tokenizations.csproj", "{2B2A35F5-87D9-49E4-9137-D5213BE9C279}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,14 @@ Global
 		{34A0BE9C-549F-4961-A380-B130F2A11C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34A0BE9C-549F-4961-A380-B130F2A11C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34A0BE9C-549F-4961-A380-B130F2A11C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB74149-003E-4C20-BE76-0F63899107F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB74149-003E-4C20-BE76-0F63899107F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB74149-003E-4C20-BE76-0F63899107F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB74149-003E-4C20-BE76-0F63899107F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2A35F5-87D9-49E4-9137-D5213BE9C279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2A35F5-87D9-49E4-9137-D5213BE9C279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2A35F5-87D9-49E4-9137-D5213BE9C279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2A35F5-87D9-49E4-9137-D5213BE9C279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +59,8 @@ Global
 		{614A63E0-F157-4CA3-8B40-291F732C85C4} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
 		{0E5E1660-DC70-404E-AEFC-638793FE0FF5} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
 		{34A0BE9C-549F-4961-A380-B130F2A11C58} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
+		{AEB74149-003E-4C20-BE76-0F63899107F6} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
+		{2B2A35F5-87D9-49E4-9137-D5213BE9C279} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45134D12-1CC0-42EB-B42E-E600A6EE50CA}
