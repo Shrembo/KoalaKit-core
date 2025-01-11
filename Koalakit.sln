@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaKit.Modules", "src\inf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaKit.DI", "src\infrastructure\KoalaKit.DI\KoalaKit.DI.csproj", "{0E5E1660-DC70-404E-AEFC-638793FE0FF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koalakit.Orchestrations", "src\infrastructure\Koalakit.Orchestrations\Koalakit.Orchestrations.csproj", "{34A0BE9C-549F-4961-A380-B130F2A11C58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{0E5E1660-DC70-404E-AEFC-638793FE0FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E5E1660-DC70-404E-AEFC-638793FE0FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E5E1660-DC70-404E-AEFC-638793FE0FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A0BE9C-549F-4961-A380-B130F2A11C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A0BE9C-549F-4961-A380-B130F2A11C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A0BE9C-549F-4961-A380-B130F2A11C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A0BE9C-549F-4961-A380-B130F2A11C58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +46,7 @@ Global
 		{DE07727B-7A22-450C-A008-58511C508EE8} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
 		{614A63E0-F157-4CA3-8B40-291F732C85C4} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
 		{0E5E1660-DC70-404E-AEFC-638793FE0FF5} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
+		{34A0BE9C-549F-4961-A380-B130F2A11C58} = {8AA09DFF-5CFB-47E1-90E4-9167408D6F3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45134D12-1CC0-42EB-B42E-E600A6EE50CA}
